@@ -55,9 +55,8 @@ dependencies {
     compile group: 'com.github.walkyst', name: 'lavaplayer-fork', version: lavaplayerVersion
 
     //compile group: 'com.sedmelluq', name: 'lavaplayer', version: lavaplayerVersion
-    compile(group: 'com.sedmelluq', name: 'lavaplayer-ext-youtube-rotator', version: lavaplayerIpRotatorVersion) {
-        exclude group: 'com.sedmelluq', module: 'lavaplayer'
-    }
+    compile group: 'com.sedmelluq', name: 'jda-nas', version: jdaNasVersion
+    compile group: 'com.sedmelluq', name: 'lavaplayer-ext-youtube-rotator', version: lavaplayerIpRotatorVersion
     compile group: 'com.github.natanbc', name: 'lavadsp', version: lavaDspVersion
     compile group: 'org.jetbrains.kotlin', name: 'kotlin-reflect', version: kotlinVersion
 
